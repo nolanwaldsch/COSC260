@@ -1,0 +1,44 @@
+.button-style {
+    height: 35px;
+    width: 101px;
+    background-color: rgb(13, 255, 247);
+    color: rgb(22, 21, 21);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.button-style:hover {
+    height: 35px;
+    width: 101px;
+    background-color: rgb(39, 192, 191);
+    color: rgb(22, 21, 21);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
+
+.button-style:active {
+    height: 35px;
+    width: 101px;
+    background-color: rgb(39, 192, 191);
+    color: rgb(22, 21, 21);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 11px;
+    margin-bottom: 11px;
+}
