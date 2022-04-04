@@ -1,11 +1,12 @@
-<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd">
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="Button Style.uss" />
-    <ui:VisualElement name="Background" focusable="true" style="height: 125px; width: 991px; background-color: rgba(0, 0, 0, 255); flex-grow: 1; justify-content: center; align-items: center;">
-        <ui:VisualElement style="height: 426px; width: 407px; align-items: center; position: relative; background-color: rgb(255, 255, 255); border-left-width: 15px; border-right-width: 15px; border-top-width: 15px; border-bottom-width: 15px; justify-content: center;">
+    <ui:VisualElement name="Background" focusable="true" style="height: 565px; width: 1002px; background-color: rgb(0, 0, 0); flex-grow: 1; justify-content: center; align-items: center; position: absolute; background-image: url(&apos;/Assets/materials/Main Menu Background.PNG&apos;);">
+        <ui:VisualElement style="height: 426px; width: 407px; align-items: center; position: relative; background-color: rgba(255, 255, 255, 0); border-left-width: 15px; border-right-width: 15px; border-top-width: 15px; border-bottom-width: 15px; justify-content: center; display: flex; visibility: visible; overflow: visible; opacity: 1;">
             <ui:Label text="Main Menu" display-tooltip-when-elided="true" style="color: rgb(5, 5, 5); font-size: 25px; -unity-text-align: upper-center; position: absolute; top: 20px; left: auto;" />
-            <ui:Button text="Start Game" display-tooltip-when-elided="true" enable-rich-text="false" class="button-style" style="height: 35px; width: 101px; background-color: rgb(13, 255, 247); color: rgb(22, 21, 21); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
-            <ui:Button text="Exit" display-tooltip-when-elided="true" enable-rich-text="false" class="button-style" />
-            <ui:Button text="Controls" display-tooltip-when-elided="false" enable-rich-text="false" class="button-style" style="height: 35px; width: 101px; background-color: rgb(13, 255, 247); color: rgb(22, 21, 21); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0;" />
+            <ui:Button text="Start " display-tooltip-when-elided="true" enable-rich-text="false" name="start-button" class="button-style" />
+            <ui:Button text="Controls" display-tooltip-when-elided="true" enable-rich-text="false" name="controls-button" class="button-style" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" enable-rich-text="false" name="exit-button" class="button-style" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="message-text" class="button-style" style="display: none;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
